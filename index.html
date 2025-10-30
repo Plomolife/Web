@@ -680,6 +680,22 @@
             }
           });
         }
+        const textoAnimadoElement = document.getElementById("texto-animado");
+        if (textoAnimadoElement) {
+          const textoOriginal = textoAnimadoElement.innerHTML;
+          textoAnimadoElement.innerHTML = ""; // Limpia el párrafo
+          let i = 0;
+          const typingSpeed = 20;
+
+          function typeWriter() {
+            if (i < textoOriginal.length) {
+              textoAnimadoElement.innerHTML += textoOriginal.charAt(i);
+              i++;
+              setTimeout(typeWriter, typingSpeed);
+            }
+          }
+          setTimeout(typeWriter, 500); // Inicia después de medio segundo
+        }
       });
     </script>
   </body>
