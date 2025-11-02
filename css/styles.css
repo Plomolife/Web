@@ -128,7 +128,7 @@ p {
 }
 
 #hero {
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/background.avif");
   background-size: cover;
   background-position: center center;
   height: 100vh;
