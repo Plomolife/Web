@@ -701,6 +701,10 @@ footer {
     font-size: 0.9rem
 }
 
+.nav-social-mobile {
+    display: none;
+}
+
 @media (max-width:1024px) {
     .reviews-grid {
         grid-template-columns: repeat(2, 1fr)
@@ -756,12 +760,34 @@ footer {
         width: 100%;
         height: auto;
         background-color: var(--card-bg);
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         padding: 1.5rem;
-        gap: 3rem;
+        gap: 1.5rem;
         border-bottom: 1px solid #333;
     }
+
+  .nav-social-mobile {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1.5rem;
+      border-top: 1px solid #333;
+      padding-top: 1rem;
+      width: 100%;
+  }
+
+  .nav-social-mobile a .fab,
+  .nav-social-mobile a .fa-brands {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    transition: color 0.3s ease
+  }
+
+  .nav-social-mobile a:hover .fab,
+  .nav-social-mobile a:hover .fa-brands {
+      color: var(--primary-color);
+  }
 }
 
 @media (max-width:768px) {
