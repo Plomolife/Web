@@ -13,7 +13,6 @@
       content="Roleplay FiveM, GTA 5 RP español, servidor RP sin whitelist, Plomolife, rol gta v, servidor de rol"
     />
     <link rel="icon" type="image/png" href="img/logo.png" />
-    <link rel="stylesheet" href="css/styles.css" />
     <link rel="canonical" href="https://plomolife.com/" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#ef3a2a" />
@@ -32,9 +31,23 @@
     <meta property="og:site_name" content="Plomolife" />
 
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="preload"
+      href="css/styles.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript><link rel="stylesheet" href="css/styles.css" /></noscript>
+    <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    /></noscript>
 
     <!-- Schema.org -->
     <script type="application/ld+json">
