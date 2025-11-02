@@ -73,10 +73,14 @@
   </head>
   <body>
     <header class="header">
-      <nav class="navbar">
+      <nav class="navbar" role="navigation" aria-label="Navegación principal">
         <div class="nav-left">
           <a href="#"
-            ><img src="img/logo.png" alt="Plomolife Logo" class="logo"
+            ><img
+              src="img/logo.png"
+              alt="Logo de Plomolife - Servidor RP FiveM"
+              class="logo"
+              loading="lazy"
           /></a>
         </div>
         <div class="nav-center">
@@ -86,28 +90,32 @@
           >
           <div class="nav-social-mobile">
             <a href="https://instagram.com/plomolife" target="_blank"
-              ><i class="fab fa-instagram"></i
+              ><i class="fab fa-brands fa-instagram"></i
             ></a>
             <a href="https://x.com/PlomoLife" target="_blank"
-              ><i class="fab fa-x-twitter"></i
+              ><i class="fab fa-brands fa-x-twitter"></i
             ></a>
             <a href="https://tiktok.com/plomolife" target="_blank"
-              ><i class="fab fa-tiktok"></i
+              ><i class="fab fa-brands fa-tiktok"></i
             ></a>
           </div>
         </div>
         <div class="nav-right">
           <a href="https://instagram.com/plomolife" target="_blank"
-            ><i class="fab fa-instagram"></i
+            ><i class="fab fa-brands fa-instagram"></i
           ></a>
           <a href="https://x.com/PlomoLife" target="_blank"
             ><i class="fab fa-brands fa-x-twitter"></i
           ></a>
           <a href="https://tiktok.com/@plomolife" target="_blank"
-            ><i class="fab fa-tiktok"></i
+            ><i class="fab fa-brands fa-tiktok"></i
           ></a>
         </div>
-        <button class="nav-toggle" aria-label="Abrir menú">
+        <button
+          class="nav-toggle"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+        >
           <i class="fas fa-bars"></i>
         </button>
       </nav>
@@ -121,14 +129,15 @@
           </div>
           <h1>PLOMOLIFE</h1>
           <p id="texto-animado">
-            Sumérgete en el servidor de rol sin whitelist definitivo donde cada
-            decisión cuenta. Vivirás una experiencia inmersiva cargada de
-            acción, emoción y oportunidades únicas junto a una gran comunidad de
-            personas. Tu historia puede llegar a desarrollarse desde las fuerzas
-            de seguridad del estado de San Andreas hasta el crimen organizado,
-            sin dejar de lado la posibilidad de inmiscuirte en el mundo de los
-            negocios y por supuesto las relaciones personales con los demás
-            ciudadanos... tu historia la escribirás siempre tú.
+            Sumérgete en el servidor de rol sin whitelist definitivo para
+            roleplay en FiveM español, donde cada decisión cuenta. Vivirás una
+            experiencia inmersiva en GTA 5 RP cargada de acción, emoción y
+            oportunidades únicas junto a una gran comunidad de personas. Tu
+            historia puede llegar a desarrollarse desde las fuerzas de seguridad
+            del estado de San Andreas hasta el crimen organizado, sin dejar de
+            lado la posibilidad de inmiscuirte en el mundo de los negocios y por
+            supuesto las relaciones personales con los demás ciudadanos... tu
+            historia la escribirás siempre tú.
           </p>
           <div class="hero-buttons">
             <a
@@ -159,8 +168,9 @@
             </div>
             <h3>COMUNIDAD AGRADABLE</h3>
             <p>
-              Comunidad accesible (+16) y sin whitelist, con más de 10.000
-              personas disfrutando de un rol agradable y diverso.
+              Comunidad accesible (+16) y sin whitelist para FiveM, con más de
+              10.000 personas disfrutando de un rol agradable y diverso en GTA 5
+              RP.
             </p>
           </div>
           <div class="feature-card">
@@ -168,7 +178,7 @@
             <h3>STAFF ACTIVA</h3>
             <p>
               Equipo de staff comprometido, en constante mejora y clave en la
-              innovación y progreso del servidor.
+              innovación y progreso del servidor de roleplay.
             </p>
           </div>
           <div class="feature-card">
@@ -177,8 +187,8 @@
             </div>
             <h3>ROL SERIO</h3>
             <p>
-              Priorizamos el rol de calidad, con normativas claras y una
-              comunidad enfocada en crear historias coherentes y realistas.
+              Priorizamos el rol de calidad en FiveM, con normativas claras y
+              una comunidad enfocada en crear historias coherentes y realistas.
             </p>
           </div>
         </div>
@@ -190,56 +200,96 @@
         </div>
         <h2>NUESTRA GALERÍA</h2>
         <div class="gallery-grid">
-          <img
-            src="img/gallery/1.avif"
-            class="grid-thumbnail"
-            alt="Galería Plomolife 1"
-          />
-          <img
-            src="img/gallery/2.avif"
-            class="grid-thumbnail"
-            alt="Galería Plomolife 2"
-          />
-          <img
-            src="img/gallery/3.avif"
-            class="grid-thumbnail"
-            alt="Galería Plomolife 3"
-          />
-          <img
-            src="img/gallery/4.avif"
-            class="grid-thumbnail"
-            alt="Galería Plomolife 4"
-          />
-          <img
-            src="img/gallery/5.avif"
-            class="grid-thumbnail"
-            alt="Galería Plomolife 5"
-          />
-          <img
-            src="img/gallery/6.avif"
-            class="grid-thumbnail"
-            alt="Galería Plomolife 6"
-          />
-          <img
-            src="img/gallery/7.avif"
-            class="grid-thumbnail"
-            alt="Galería Plomolife 7"
-          />
-          <img
-            src="img/gallery/8.avif"
-            class="grid-thumbnail"
-            alt="Galería Plomolife 8"
-          />
-          <img
-            src="img/gallery/9.avif"
-            class="grid-thumbnail"
-            alt="Galería Plomolife 9"
-          />
-          <img
-            src="img/gallery/10.avif"
-            class="grid-thumbnail"
-            alt="Galería Plomolife 10"
-          />
+          <picture>
+            <source srcset="img/gallery/1.avif" type="image/avif" />
+            <img
+              src="img/gallery/1.avif"
+              class="grid-thumbnail"
+              alt="Imagen 1 de la galería"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <source srcset="img/gallery/2.avif" type="image/avif" />
+            <img
+              src="img/gallery/2.avif"
+              class="grid-thumbnail"
+              alt="Imagen 2 de la galería"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <source srcset="img/gallery/3.avif" type="image/avif" />
+            <img
+              src="img/gallery/3.avif"
+              class="grid-thumbnail"
+              alt="Imagen 3 de la galería"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <source srcset="img/gallery/4.avif" type="image/avif" />
+            <img
+              src="img/gallery/4.avif"
+              class="grid-thumbnail"
+              alt="Imagen 4 de la galería"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <source srcset="img/gallery/5.avif" type="image/avif" />
+            <img
+              src="img/gallery/5.avif"
+              class="grid-thumbnail"
+              alt="Imagen 5 de la galería"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <source srcset="img/gallery/6.avif" type="image/avif" />
+            <img
+              src="img/gallery/6.avif"
+              class="grid-thumbnail"
+              alt="Imagen 6 de la galería"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <source srcset="img/gallery/7.avif" type="image/avif" />
+            <img
+              src="img/gallery/7.avif"
+              class="grid-thumbnail"
+              alt="Imagen 7 de la galería"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <source srcset="img/gallery/8.avif" type="image/avif" />
+            <img
+              src="img/gallery/8.avif"
+              class="grid-thumbnail"
+              alt="Imagen 8 de la galería"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <source srcset="img/gallery/9.avif" type="image/avif" />
+            <img
+              src="img/gallery/9.avif"
+              class="grid-thumbnail"
+              alt="Imagen 9 de la galería"
+              loading="lazy"
+            />
+          </picture>
+          <picture>
+            <source srcset="img/gallery/10.avif" type="image/avif" />
+            <img
+              src="img/gallery/10.avif"
+              class="grid-thumbnail"
+              alt="Imagen 10 de la galería"
+              loading="lazy"
+            />
+          </picture>
         </div>
       </section>
 
@@ -251,88 +301,113 @@
           >
         </div>
         <h2>PREGUNTAS FRECUENTES</h2>
-        <div class="faq-accordion">
-          <details class="faq-item">
-            <summary>
-              <span class="faq-left"
-                ><i class="fas fa-right-to-bracket"></i
-                ><span>¿CÓMO ENTRO AL SERVIDOR?</span></span
-              >
-              <span class="faq-icon">+</span>
-            </summary>
-            <div class="faq-content">
-              <p>
-                Debes tener FiveM instalado y unirte a nuestro discord oficial
-                para poder entrar al servidor a través de este
-                <a href="https://discord.gg/plomolife">enlace</a>.
-              </p>
-            </div>
-          </details>
-          <details class="faq-item">
-            <summary>
-              <span class="faq-left"
-                ><i class="fas fa-list-check"></i
-                ><span>¿EL SERVIDOR TIENE WHITELIST?</span></span
-              >
-              <span class="faq-icon">+</span>
-            </summary>
-            <div class="faq-content">
-              <p>
-                No, nuestro servidor está al alcance de todas las comunidades
-                siempre y cuando tengan la edad mínima requerida.
-              </p>
-            </div>
-          </details>
-          <details class="faq-item">
-            <summary>
-              <span class="faq-left"
-                ><i class="fas fa-shield-halved"></i
-                ><span
-                  >¿CÓMO PUEDO UNIRME A LA POLICÍA O A UNA ORGANIZACIÓN
-                  ILLEGAL?</span
-                ></span
-              >
-              <span class="faq-icon">+</span>
-            </summary>
-            <div class="faq-content">
-              <p>
-                En el caso de la policía deberás unirte al discord de SAPD y
-                postular en él. Mientras que para una organización ilegal
-                deberás de tratar de unirte a una de manera IC, conociendo a
-                personas que te inviten a la misma.
-              </p>
-            </div>
-          </details>
-          <details class="faq-item">
-            <summary>
-              <span class="faq-left"
-                ><i class="fas fa-briefcase"></i
-                ><span>¿PUEDO TENER UN NEGOCIO O EMPRESA?</span></span
-              >
-              <span class="faq-icon">+</span>
-            </summary>
-            <div class="faq-content">
-              <p>
-                Sí. Disponemos de una gran variedad de negocios al alcance de
-                todos.
-              </p>
-            </div>
-          </details>
-          <details class="faq-item">
-            <summary>
-              <span class="faq-left"
-                ><i class="fas fa-money-bill-wave"></i
-                ><span>¿CÓMO PUEDO GANAR DINERO EN EL SERVIDOR?</span></span
-              >
-              <span class="faq-icon">+</span>
-            </summary>
-            <div class="faq-content">
-              <p>
-                Puedes trabajar de manera legal o adentrarte al mundo ilegal.
-              </p>
-            </div>
-          </details>
-        </div>
+        <dl class="faq-accordion">
+          <div class="faq-item">
+            <dt>
+              <details>
+                <summary aria-label="¿Cómo entro al servidor?">
+                  <span class="faq-left">
+                    <i class="fas fa-right-to-bracket"></i>
+                    <span>¿CÓMO ENTRO AL SERVIDOR?</span>
+                  </span>
+                  <span class="faq-icon">+</span>
+                </summary>
+                <dd class="faq-content">
+                  <p>
+                    Debes tener FiveM instalado y unirte a nuestro discord
+                    oficial para poder entrar al servidor a través de este
+                    <a href="https://discord.gg/plomolife">enlace</a>.
+                  </p>
+                </dd>
+              </details>
+            </dt>
+          </div>
+          <div class="faq-item">
+            <dt>
+              <details>
+                <summary aria-label="¿El servidor tiene whitelist?">
+                  <span class="faq-left">
+                    <i class="fas fa-list-check"></i>
+                    <span>¿EL SERVIDOR TIENE WHITELIST?</span>
+                  </span>
+                  <span class="faq-icon">+</span>
+                </summary>
+                <dd class="faq-content">
+                  <p>
+                    No, nuestro servidor de roleplay FiveM español está al
+                    alcance de todas las comunidades siempre y cuando tengan la
+                    edad mínima requerida.
+                  </p>
+                </dd>
+              </details>
+            </dt>
+          </div>
+          <div class="faq-item">
+            <dt>
+              <details>
+                <summary
+                  aria-label="¿Cómo unirme a la policía o organización ilegal?"
+                >
+                  <span class="faq-left">
+                    <i class="fas fa-shield-halved"></i>
+                    <span
+                      >¿CÓMO PUEDO UNIRME A LA POLICÍA O A UNA ORGANIZACIÓN
+                      ILLEGAL?</span
+                    >
+                  </span>
+                  <span class="faq-icon">+</span>
+                </summary>
+                <dd class="faq-content">
+                  <p>
+                    En el caso de la policía deberás unirte al discord de SAPD y
+                    postular en él. Mientras que para una organización ilegal
+                    deberás de tratar de unirte a una de manera IC, conociendo a
+                    personas que te inviten a la misma. Consulta nuestras
+                    <a href="/reglas">reglas</a> para más detalles.
+                  </p>
+                </dd>
+              </details>
+            </dt>
+          </div>
+          <div class="faq-item">
+            <dt>
+              <details>
+                <summary aria-label="¿Puedo tener un negocio o empresa?">
+                  <span class="faq-left">
+                    <i class="fas fa-briefcase"></i>
+                    <span>¿PUEDO TENER UN NEGOCIO O EMPRESA?</span>
+                  </span>
+                  <span class="faq-icon">+</span>
+                </summary>
+                <dd class="faq-content">
+                  <p>
+                    Sí. Disponemos de una gran variedad de negocios al alcance
+                    de todos en nuestro servidor RP.
+                  </p>
+                </dd>
+              </details>
+            </dt>
+          </div>
+          <div class="faq-item">
+            <dt>
+              <details>
+                <summary aria-label="¿Cómo puedo ganar dinero en el servidor?">
+                  <span class="faq-left">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span>¿CÓMO PUEDO GANAR DINERO EN EL SERVIDOR?</span>
+                  </span>
+                  <span class="faq-icon">+</span>
+                </summary>
+                <dd class="faq-content">
+                  <p>
+                    Puedes trabajar de manera legal o adentrarte al mundo ilegal
+                    en GTA 5 RP.
+                  </p>
+                </dd>
+              </details>
+            </dt>
+          </div>
+        </dl>
       </section>
 
       <div class="partners-section">
@@ -342,40 +417,116 @@
         <h2>NUESTROS PARTNERS</h2>
         <div class="partners-container">
           <div class="partners-track">
-            <img src="img/partners/partner1.png" alt="Partner 1" /><img
+            <img
+              src="img/partners/partner1.png"
+              alt="Partner 1"
+              loading="lazy"
+            />
+            <img
               src="img/partners/partner2.png"
               alt="Partner 2"
-            /><img src="img/partners/partner3.png" alt="Partner 3" /><img
+              loading="lazy"
+            />
+            <img
+              src="img/partners/partner3.png"
+              alt="Partner 3"
+              loading="lazy"
+            />
+            <img
               src="img/partners/partner4.png"
               alt="Partner 4"
-            /><img src="img/partners/partner5.png" alt="Partner 5" /><img
+              loading="lazy"
+            />
+            <img
+              src="img/partners/partner5.png"
+              alt="Partner 5"
+              loading="lazy"
+            />
+            <img
               src="img/partners/partner6.png"
               alt="Partner 6"
-            /><img src="img/partners/partner7.png" alt="Partner 7" /><img
+              loading="lazy"
+            />
+            <img
+              src="img/partners/partner7.png"
+              alt="Partner 7"
+              loading="lazy"
+            />
+            <img
               src="img/partners/partner8.png"
               alt="Partner 8"
-            /><img src="img/partners/partner9.png" alt="Partner 9" /><img
+              loading="lazy"
+            />
+            <img
+              src="img/partners/partner9.png"
+              alt="Partner 9"
+              loading="lazy"
+            />
+            <img
               src="img/partners/partner10.png"
               alt="Partner 10"
+              loading="lazy"
             />
-            <img src="img/partners/partner11.png" alt="Partner 11" />
-            <img src="img/partners/partner1.png" alt="Partner 1" /><img
+            <img
+              src="img/partners/partner11.png"
+              alt="Partner 11"
+              loading="lazy"
+            />
+            <img
+              src="img/partners/partner1.png"
+              alt="Partner 1"
+              loading="lazy"
+            />
+            <img
               src="img/partners/partner2.png"
               alt="Partner 2"
-            /><img src="img/partners/partner3.png" alt="Partner 3" /><img
+              loading="lazy"
+            />
+            <img
+              src="img/partners/partner3.png"
+              alt="Partner 3"
+              loading="lazy"
+            />
+            <img
               src="img/partners/partner4.png"
               alt="Partner 4"
-            /><img src="img/partners/partner5.png" alt="Partner 5" /><img
+              loading="lazy"
+            />
+            <img
+              src="img/partners/partner5.png"
+              alt="Partner 5"
+              loading="lazy"
+            />
+            <img
               src="img/partners/partner6.png"
               alt="Partner 6"
-            /><img src="img/partners/partner7.png" alt="Partner 7" /><img
+              loading="lazy"
+            />
+            <img
+              src="img/partners/partner7.png"
+              alt="Partner 7"
+              loading="lazy"
+            />
+            <img
               src="img/partners/partner8.png"
               alt="Partner 8"
-            /><img src="img/partners/partner9.png" alt="Partner 9" /><img
+              loading="lazy"
+            />
+            <img
+              src="img/partners/partner9.png"
+              alt="Partner 9"
+              loading="lazy"
+            />
+            <img
               src="img/partners/partner10.png"
               alt="Partner 10"
+              loading="lazy"
             />
-            <img src="img/partners/partner11.png" alt="Partner 11" />
+            <img
+              src="img/partners/partner11.png"
+              alt="Partner 11"
+              loading="lazy"
+            />
           </div>
         </div>
       </div>
@@ -387,11 +538,31 @@
         <h2>¿QUÉ DICEN DE NOSOTROS?</h2>
         <div class="reviews-summary-new">
           <div class="reviews-avatars">
-            <img src="img/avatars/avatar7.png" alt="Avatar" />
-            <img src="img/avatars/avatar8.png" alt="Avatar" />
-            <img src="img/avatars/avatar9.png" alt="Avatar" />
-            <img src="img/avatars/avatar10.png" alt="Avatar" />
-            <img src="img/avatars/avatar11.png" alt="Avatar" />
+            <img
+              src="img/avatars/avatar7.png"
+              alt="Avatar usuario 1"
+              loading="lazy"
+            />
+            <img
+              src="img/avatars/avatar8.png"
+              alt="Avatar usuario 2"
+              loading="lazy"
+            />
+            <img
+              src="img/avatars/avatar9.png"
+              alt="Avatar usuario 3"
+              loading="lazy"
+            />
+            <img
+              src="img/avatars/avatar10.png"
+              alt="Avatar usuario 4"
+              loading="lazy"
+            />
+            <img
+              src="img/avatars/avatar11.png"
+              alt="Avatar usuario 5"
+              loading="lazy"
+            />
           </div>
           <div class="stars" aria-label="Valoración 4.7 de 5">
             <i class="fas fa-star"></i><i class="fas fa-star"></i
@@ -405,13 +576,18 @@
             target="_blank"
             rel="noopener"
             class="reviews-link-new"
-            ><i class="fas fa-external-link-alt"></i> LEER EN DISCORD</a
           >
+            <i class="fas fa-external-link-alt"></i> LEER EN DISCORD
+          </a>
         </div>
         <div class="reviews-grid">
-          <div class="review-card">
+          <article class="review-card">
             <div class="review-author">
-              <img src="img/avatars/avatar14.png" alt="Avatar" />
+              <img
+                src="img/avatars/avatar14.png"
+                alt="Avatar de hugoo5361"
+                loading="lazy"
+              />
               <div>
                 <h4>hugoo5361</h4>
                 <div class="stars">
@@ -426,10 +602,14 @@
               sobre todo el mejor equipo de staff que ha habido en dos años que
               llevo en este servidor, simplemente mágico ✨"
             </p>
-          </div>
-          <div class="review-card">
+          </article>
+          <article class="review-card">
             <div class="review-author">
-              <img src="img/avatars/avatar15.png" alt="Avatar" />
+              <img
+                src="img/avatars/avatar15.png"
+                alt="Avatar de fyilos_jr"
+                loading="lazy"
+              />
               <div>
                 <h4>fyilos_jr</h4>
                 <div class="stars">
@@ -444,10 +624,14 @@
               bastante rápido los problemas, para mi no seria un cinco sería un
               10"
             </p>
-          </div>
-          <div class="review-card">
+          </article>
+          <article class="review-card">
             <div class="review-author">
-              <img src="img/avatars/avatar13.png" alt="Avatar" />
+              <img
+                src="img/avatars/avatar13.png"
+                alt="Avatar de badqueen"
+                loading="lazy"
+              />
               <div>
                 <h4>badqueen</h4>
                 <div class="stars">
@@ -461,10 +645,14 @@
               "Un servidor bastante bueno y que da un buen rol además de buen
               ambiente. Los staffs son muy amables y atentos!"
             </p>
-          </div>
-          <div class="review-card">
+          </article>
+          <article class="review-card">
             <div class="review-author">
-              <img src="img/avatars/avatar4.png" alt="Avatar" />
+              <img
+                src="img/avatars/avatar4.png"
+                alt="Avatar de imanisoliz"
+                loading="lazy"
+              />
               <div>
                 <h4>imanisoliz</h4>
                 <div class="stars">
@@ -478,10 +666,14 @@
               "Es buen servidor donde uno aprende a rolear y es muy interactivo
               con otros usuarios."
             </p>
-          </div>
-          <div class="review-card">
+          </article>
+          <article class="review-card">
             <div class="review-author">
-              <img src="img/avatars/avatar5.png" alt="Avatar" />
+              <img
+                src="img/avatars/avatar5.png"
+                alt="Avatar de d4lex8"
+                loading="lazy"
+              />
               <div>
                 <h4>d4lex8</h4>
                 <div class="stars">
@@ -495,10 +687,14 @@
               "Plomolife es un servidor muy divertido, con buenos scripts y una
               comunidad muy buena con gente muy maja."
             </p>
-          </div>
-          <div class="review-card">
+          </article>
+          <article class="review-card">
             <div class="review-author">
-              <img src="img/avatars/avatar6.png" alt="Avatar" />
+              <img
+                src="img/avatars/avatar6.png"
+                alt="Avatar de tuluisfavv"
+                loading="lazy"
+              />
               <div>
                 <h4>tuluisfavv</h4>
                 <div class="stars">
@@ -513,7 +709,7 @@
               mudarme a otro server el mejor en optimización los mejores
               scripts, el mejor trato de los administradores y el mejor rol."
             </p>
-          </div>
+          </article>
         </div>
       </section>
     </main>
@@ -521,14 +717,19 @@
     <footer>
       <div class="footer-container">
         <div class="footer-column">
-          <img src="img/logo.png" alt="Plomolife Logo" class="footer-logo" />
+          <img
+            src="img/logo.png"
+            alt="Logo de Plomolife en footer"
+            class="footer-logo"
+            loading="lazy"
+          />
         </div>
         <div class="footer-column">
           <h4>SOBRE NOSOTROS</h4>
           <ul>
             <li>
               <a href="https://discord.gg/plomolife" target="_blank"
-                ><i class="fab fa-discord"></i> Discord</a
+                ><i class="fab fa-brands fa-discord"></i> Discord</a
               >
             </li>
             <li>
@@ -548,7 +749,7 @@
           <ul>
             <li>
               <a href="http://instagram.com/plomolife" target="_blank"
-                ><i class="fab fa-instagram"></i> Instagram</a
+                ><i class="fab fa-brands fa-instagram"></i> Instagram</a
               >
             </li>
             <li>
@@ -558,22 +759,22 @@
             </li>
             <li>
               <a href="http://tiktok.com/@plomolife" target="_blank"
-                ><i class="fab fa-tiktok"></i> TikTok</a
+                ><i class="fab fa-brands fa-tiktok"></i> TikTok</a
               >
             </li>
             <li>
               <a href="https://www.youtube.com/@plomolife" target="_blank"
-                ><i class="fab fa-youtube"></i> Youtube</a
+                ><i class="fab fa-brands fa-youtube"></i> Youtube</a
               >
             </li>
             <li>
               <a href="https://www.threads.com/@plomolife" target="_blank"
-                ><i class="fab fa-threads"></i> Threads</a
+                ><i class="fab fa-brands fa-threads"></i> Threads</a
               >
             </li>
             <li>
               <a href="https://mastodon.coffee/@plomolife" target="_blank"
-                ><i class="fab fa-mastodon"></i> Mastodon</a
+                ><i class="fab fa-brands fa-mastodon"></i> Mastodon</a
               >
             </li>
           </ul>
@@ -588,15 +789,23 @@
       </div>
     </footer>
 
-    <div id="gallery-modal" class="modal-overlay">
+    <div
+      id="gallery-modal"
+      class="modal-overlay"
+      role="dialog"
+      aria-label="Galería de imágenes"
+    >
       <div class="modal-content">
-        <button class="modal-close-button">&times;</button>
+        <button class="modal-close-button" aria-label="Cerrar galería">
+          &times;
+        </button>
         <div class="modal-gallery-body">
           <div class="modal-main-image">
             <img
               id="modal-current-image"
               src="img/gallery/1.avif"
-              alt="Imagen ampliada"
+              alt="Imagen ampliada de galería"
+              loading="lazy"
             />
           </div>
           <div class="modal-thumbnail-list">
@@ -604,51 +813,61 @@
               src="img/gallery/1.avif"
               class="modal-thumbnail active"
               alt="Miniatura 1"
+              loading="lazy"
             />
             <img
               src="img/gallery/2.avif"
               class="modal-thumbnail"
               alt="Miniatura 2"
+              loading="lazy"
             />
             <img
               src="img/gallery/3.avif"
               class="modal-thumbnail"
               alt="Miniatura 3"
+              loading="lazy"
             />
             <img
               src="img/gallery/4.avif"
               class="modal-thumbnail"
               alt="Miniatura 4"
+              loading="lazy"
             />
             <img
               src="img/gallery/5.avif"
               class="modal-thumbnail"
               alt="Miniatura 5"
+              loading="lazy"
             />
             <img
               src="img/gallery/6.avif"
               class="modal-thumbnail"
               alt="Miniatura 6"
+              loading="lazy"
             />
             <img
               src="img/gallery/7.avif"
               class="modal-thumbnail"
               alt="Miniatura 7"
+              loading="lazy"
             />
             <img
               src="img/gallery/8.avif"
               class="modal-thumbnail"
               alt="Miniatura 8"
+              loading="lazy"
             />
             <img
               src="img/gallery/9.avif"
               class="modal-thumbnail"
               alt="Miniatura 9"
+              loading="lazy"
             />
             <img
               src="img/gallery/10.avif"
               class="modal-thumbnail"
               alt="Miniatura 10"
+              loading="lazy"
             />
           </div>
         </div>

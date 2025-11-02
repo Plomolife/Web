@@ -820,3 +820,14 @@ footer {
     height: 80px;
   }
 }
+
+@media (max-width: 480px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+}
